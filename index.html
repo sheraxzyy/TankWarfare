@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#0d100c" />
+    <meta
+      name="description"
+      content="TANK WARFARE — a top-down military tank combat game. Campaign, Survival and Training across four war-torn environments."
+    />
+    <title>TANK WARFARE // Armored Combat</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%230d100c'/%3E%3Cpath d='M10 44h44v8H10z' fill='%23c8b48a'/%3E%3Cpath d='M14 30h28v14H14z' fill='%234a5334'/%3E%3Cpath d='M24 22h24v8H24z' fill='%234a5334'/%3E%3Cpath d='M44 24h16v4H44z' fill='%23c8b48a'/%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <div id="boot-screen" class="boot">
+      <div class="boot__inner">
+        <div class="boot__mark">TW</div>
+        <div class="boot__title">TANK WARFARE</div>
+        <div class="boot__sub">INITIALIZING FIELD SYSTEMS</div>
+        <div class="boot__bar"><i></i></div>
+        <div class="boot__hint" id="boot-hint">LOADING ARMORED DIVISION DATA</div>
+      </div>
+    </div>
+
+    <div id="game-root" aria-hidden="true"></div>
+    <div id="ui-root"></div>
+    <div id="hud-root" hidden></div>
+    <div id="toast-root" aria-live="polite"></div>
+
+    <noscript>
+      <div class="noscript">TANK WARFARE requires JavaScript. Enable JavaScript and reload the page.</div>
+    </noscript>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

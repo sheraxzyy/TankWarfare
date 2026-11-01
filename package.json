@@ -1,0 +1,19 @@
+{
+  "name": "tank-warfare",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TANK WARFARE — a 2D top-down military tank combat game built with Phaser 3 and Vite.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test:smoke": "node scripts/smoke-test.mjs"
+  },
+  "dependencies": {
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}
